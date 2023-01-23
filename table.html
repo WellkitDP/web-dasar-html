@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table HTML</title>
+</head>
+
+<body>
+    <!--table basic-->
+    <table>
+        <tr>
+            <td>baris ke 1, kolom 1</td>
+            <td>baris ke 1, kolom 2</td>
+        </tr>
+        <tr>
+            <td>baris ke 2, kolom 1</td>
+            <td>baris ke 2, kolom 2</td>
+        </tr>
+    </table>
+
+    <!--table complek-->
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>kolom 1</th>
+                <th>kolom 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>baris 1</th>
+                <th>baris 1, kolom 1</th>
+                <th>baris 1 kolom 2</th>
+            </tr>
+            <tr>
+                <th>baris 2</th>
+                <th>baris 2, kolom 1</th>
+                <th>baris 2 kolom 2</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--atribut table
+    border
+    cellspacing
+    cellpadding
+    colspan
+    rowspan
+    -->
+    <table border="1" cellspacing="0" cellpading="10">
+        <thead>
+            <tr>
+                <th></th>
+                <th>kolom 1</th>
+                <th>kolom 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>baris 1</th>
+                <th>baris 1, kolom 1</th>
+                <th>baris 1 kolom 2</th>
+            </tr>
+            <tr>
+                <th>baris 2</th>
+                <th>baris 2, kolom 1</th>
+                <th>baris 2 kolom 2</th>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <!--colspan dan rowspan-->
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td>1,1</td>
+            <td colspan="2">colspan 2</td>
+            
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td>2,2</td>
+            <td>2,3</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,2</td>
+            <td>3,3</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td rowspan="3">rowspan 3</td>
+            <td colspan="2">colspan 2</td>
+            
+        </tr>
+        <tr>
+            
+            <td>2,2</td>
+            <td>2,3</td>
+        </tr>
+        <tr>
+            
+            <td>3,2</td>
+            <td>3,3</td>
+        </tr>
+    </table>
+
+    <!--latihan-->
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+            <td>1,3</td>
+            <td>1,4</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td rowspan="2" colspan="2"></td>
+            <td>2,4</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            
+            
+            <td>3,4</td>
+        </tr>
+        <tr>
+            <td>4,1</td>
+            <td>4,2</td>
+            <td>4,3</td>
+            <td>4,4</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
