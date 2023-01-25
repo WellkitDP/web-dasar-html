@@ -16,6 +16,28 @@ h1 {
     font-style: normal;
     /*font-style: oblique;*/
     /*font-style: italic;*/
+
+    /*textstyling*/
+    /*mengatur warna text*/
+    color: blue;
+
+    /*mengatur format paragraf*/
+    text-align: justify;
+    
+    /*memberi identitas pada paragraf*/
+    text-indent: 100px;
+
+    /*mengukur dekorasi*/
+    text-decoration: underline;
+
+    /*mengubah jenis huruf menjadi besar kecil, kapital*/
+    text-transform: capitalize;
+    
+    /*mengatur jarak sepasi per huruf*/
+    letter-spacing: 10px;
+    
+    /*mengatur jarak spasi per kata*/
+    word-spacing: 5px;
 }
 
 p {
