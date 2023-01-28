@@ -1,0 +1,60 @@
+/*
+kelas semu yang dimiliki oleh sebuah element
+HTML, yang membuat kita dapat mendefinisikan style
+pada keadaan tertentu dari element tersebut.
+
+:link (style default pada sebuah link)
+:hover (style ketika kursor berada diatas sebuah link)
+:active (style ketika sebuah link di klik)
+:visited (style ketika sebuah link sudah pernah dikunjungi sebelumnya)
+*/
+.more:link{
+    color: red;
+}
+
+.more:hover{
+    font-family: arial;
+    font-size: 20px;
+}
+
+.more:active{
+    font-style: italic;
+}
+
+.more:visited{
+    color: gray;
+}
+
+/*
+memilih element pertama dari sebuah parameter
+:first-child
+
+memilih element terakhir dari sebuah parent
+:last-child
+
+memilih element ke-n dari sebuah parent
+n bisa berati urutan 1,2 / ganjil genap
+:nth-child()
+*/
+
+
+li:first-child a{
+    /*css tolong carikan saya a didalam li, yang merupakan anak pertama*/
+    color: greenyellow;
+}
+li:last-child a{
+    /*css tolong carikan saya a didalam li, yang merupakan anak terakhir*/
+    color: black;
+}
+li:nth-child(2) a{
+    /*css tolong carikan saya a didalam li, yang merupakan anak ke-2*/
+    color: red;
+}
+li:nth-child(2n) a{
+    /*css tolong carikan saya a didalam li, yang merupakan anak kelipatan ke-2*/
+    color: plum;
+}
+li:nth-child(odd) a:hover{
+    /*css tolong carikan saya a didalam li, yang merupakan anak ke-ganjil(odd)/genap(even)*/
+    color: yellow;
+}
