@@ -1,0 +1,49 @@
+/*
+element html
+id
+class
+complex selector
+*/
+/*
+body{} dan dll adalah selector
+*/
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-style: arial;
+}
+
+h2 {
+    font-style: italic;
+}
+
+/*
+(,)separator / dan,  contoh 
+*/
+h1, h2 {
+    letter-spacing: 5px;
+    color: green;
+}
+
+/*
+( )"spasi"separator yang artinya didalam,  contoh 
+*/
+
+ul li a{
+    color: red;
+}
+
+/*
+(#)separator yang dikhususkan untuk selector name id="",
+(.)separator yang dikhususkan untuk selector name class="",
+*/
+#p1{
+    font-weight: bold;
+}
+
+.pa1{
+    font-size: large;
+    font-style: italic;
+}
