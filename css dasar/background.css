@@ -1,0 +1,13 @@
+body{
+    /*mengatur warna background*/
+    background-color: gainsboro;
+
+    /*mengatur gambar yang digunakan pada background*/
+    background-image: url(open.png);
+
+    /*mengatur posisi gambar*/
+    background-position: top center;
+
+    /*mangatur jenis pengulangan gambar*/
+    background-repeat: no-repeat;
+}
