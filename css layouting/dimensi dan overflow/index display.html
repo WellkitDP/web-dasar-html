@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimensi dan Overflow</title>
+    <style>
+        .tes {
+            width: 200px;
+            height: 200px;
+            background-color: lawngreen;
+        }
+
+        .p1 {
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+
+            /*
+        element overflow
+        visible
+        auto
+        hidden
+        scroll
+        */
+
+            overflow: auto;
+        }
+
+        .p2 {
+            width: 100%;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <!--dimensi-->
+    <div class="tes">HELLO WORLD</div>
+
+    <div class="p1">
+        <div class="p2">Relative</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas expedita beatae aut mollitia aperiam!
+            Laudantium sequi repellat pariatur earum unde vitae minima dicta quaerat! Nemo obcaecati minus optio esse
+            animi?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur voluptatum voluptate nihil
+            officia velit quasi modi possimus corrupti in est, facilis vero voluptatibus! Ut perferendis dolorem quam
+            laborum aperiam?</p>
+    </div>
+
+
+</body>
+
+</html>
