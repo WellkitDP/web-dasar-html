@@ -3,7 +3,7 @@ body{
     background-color: gainsboro;
 
     /*mengatur gambar yang digunakan pada background*/
-    background-image: url(open.png);
+    background-image: url(logo.png);
 
     /*mengatur posisi gambar*/
     background-position: top center;
