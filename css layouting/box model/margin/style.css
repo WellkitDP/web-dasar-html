@@ -1,0 +1,23 @@
+/*cara pakai margin*/
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    margin-left: 50px;
+}
+.dua{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /*margi auto hanya bisa digunakan untuk right dan left, keduanya harus auto*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.tiga{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    margin-left: 100px;
+}
