@@ -1,0 +1,30 @@
+/*cara reset css default manual
+    body{
+        margin:0;
+    }
+    auto
+    semua element akan kereset
+    *{
+        margin: 0;
+        padding: 0;
+    }
+*/
+
+div{
+    width: 500px;
+    margin: 10px auto;
+    /*box-sizing mengatur ukuran box agar sama lebarnya*/
+    box-sizing: border-box;
+}
+
+.satu{
+    background-color: aqua;
+    padding: 10px;
+    border: 5px solid grey;
+}
+
+.dua{
+    background-color: lawngreen;
+    padding: 30px;
+    border: 10px dashed black;
+}
