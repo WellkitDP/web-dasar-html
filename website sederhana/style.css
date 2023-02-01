@@ -1,3 +1,4 @@
+/*reset default element*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,20 +43,23 @@ table {
 	border-spacing: 0;
 }
 
-/*your css*/
 
+
+/*your css*/
 body{
     font: 16px/28px arial, sans-serif;
     background-color: beige;
     background-image: url(blue-snow.webp);
 }
 
+/*container*/
 .container{
-    width: 800px;
+    width: 960px;
     margin: auto;
     background-color: white;
 }
 
+/*header*/
 .header{
     padding: 20px 20px 10px 20px;
 }
@@ -82,8 +86,9 @@ body{
     color: white;
 }
 
+/*hero image*/
 .hero{
-    height: 500px;
+    height: 550px;
     background-image: url(hero.jpg);
     background-size: cover; 
     background-position: -20px 0;
@@ -91,31 +96,59 @@ body{
     border-bottom: 5px solid lavender;
 }
 
-.content{
+/*main*/
+.main{
+    width: 600px;
     padding: 20px;
+    box-sizing: border-box;
+    float: left;
 }
 
-.content h2{
+.main h2{
     font-size: 28px;
     font-weight: bold;
 }
 
-.content .authors{
+.main .authors{
     font-size: 12px;
     margin-top: -5px;
 }
 
-.content .authors a{
+.main .authors a{
     text-decoration: none;
     color: chocolate;
 }
 
-.content p{
+.main p{
     margin-bottom: 10px;
     font-size: 13px;
     text-align: justify;
 }
 
+/*sidebar*/
+.sidebar{
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar h3{
+    font-weight: bold;
+    color: chocolate;
+}
+
+.sidebar img{
+    width: 80px;
+    padding-right: 10px;
+    float: left;
+}
+
+.sidebar p{
+    font: 12px/18px arial;
+    text-align: justify;
+}
+
+/*footer*/
 .footer{
     background-color: rgb(51, 51, 51);
 }
@@ -125,3 +158,18 @@ body{
     text-align: center;
     font-size: 12px;
 }
+
+/*clear fix float*/
+.cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ .cf {
+     *zoom: 1;
+ }
