@@ -1,0 +1,32 @@
+/*
+float value: none, left, right
+*/
+
+/*
+yang bisa digunakan float
+ text wrapping: membuat teks mengelilingi gambar
+ image gallery: membuat serangkaian gambar menjadi galeri
+ multi-column layout: membuat halaman memiliki beberapa kolom
+ dll
+*/
+.container{
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+.satu, .dua, .tiga{
+    width: 100px;
+    height: 100px;
+}
+.satu{
+    background-color: aqua;
+}
+.dua{
+    background-color: aquamarine;
+    float: right;
+}
+.tiga{
+    background-color: blanchedalmond;
+}
